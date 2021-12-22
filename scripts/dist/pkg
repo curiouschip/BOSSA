@@ -1,0 +1,10 @@
+#!/bin/bash
+
+TARGET=$1
+NAME=$2
+VERSION=$3
+
+mkdir -p $TARGET/opt/pip/bin
+make clean
+make bossac
+cp bin/bossac $TARGET/opt/pip/bin/bossac

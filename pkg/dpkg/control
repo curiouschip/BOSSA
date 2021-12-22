@@ -1,0 +1,5 @@
+Package: bossac
+Version: 0.0.1
+Architecture: arm
+Maintainer: Jason Frame <jason@curiouschip.com>
+Description: bossac
